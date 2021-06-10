@@ -6,8 +6,8 @@ namespace Gambler_problem
 {
     class Gambler
     {
-        string StakeEveryday = "$100";
-        string Bet = "$1";
+        const string StakeEveryday = "$100";
+        const string Bet = "$1";
         public void Start()
         {
             Console.WriteLine("Gambler is starting with stack of"+StakeEveryday+"and bet"+Bet+"per game");
